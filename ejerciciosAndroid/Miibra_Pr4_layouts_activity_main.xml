@@ -1,0 +1,47 @@
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:stretchColumns="1"
+    android:padding="10dp">
+
+    <TableRow>
+        <TextView android:text="Nombre (*)" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="6dp"
+            android:text="Rafa" />
+    </TableRow>
+
+    <TableRow>
+        <TextView android:text="Apellidos (*)" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="6dp"
+            android:text="Miranda" />
+    </TableRow>
+
+    <TableRow>
+        <TextView android:text="e-mail (*)" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="6dp" />
+    </TableRow>
+
+    <TableRow>
+        <TextView android:text="Mensaje" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="6dp" android:paddingRight="5dp" android:inputType="textMultiLine" android:lines="3" />
+    </TableRow>
+
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <CheckBox android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Suscribirse por e-mail" android:checked="true" />
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp">
+        <TextView android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu quam mollis, porttitor sapien eu, dapibus urna. Quisque pellentesque molestie nunc, semper rhoncus mi aliquam id. Donec eleifend consequat nunc eu tristique. Sed lacinia lectus est, non fermentum velit ultricies aliquet."
+            android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="#0000FF" android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:gravity="center" android:orientation="horizontal">
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Confirmar" />
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Cancelar" />
+    </LinearLayout>
+</TableLayout>
+

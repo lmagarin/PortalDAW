@@ -1,0 +1,134 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:padding="0dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Numero 1"
+        android:id="@+id/textView1"
+        android:layout_marginTop="37dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/btnRestar"
+        android:layout_alignEnd="@+id/btnRestar" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Numero 2"
+        android:id="@+id/textView2"
+        android:layout_marginTop="37dp"
+        android:layout_below="@+id/textView1"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_alignStart="@+id/textView1" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sumar"
+        android:id="@+id/btnSumar"
+        android:onClick="sumar"
+        android:layout_marginTop="29dp"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="21dp"
+        android:layout_marginStart="21dp" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Restar"
+        android:id="@+id/btnRestar"
+        android:layout_alignBottom="@+id/btnSumar"
+        android:layout_toRightOf="@+id/btnSumar"
+        android:layout_toEndOf="@+id/btnSumar"
+        android:onClick="restar" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Multiplicar"
+        android:id="@+id/btnMultiplicar"
+        android:layout_alignTop="@+id/btnRestar"
+        android:layout_toRightOf="@+id/btnRestar"
+        android:layout_toEndOf="@+id/btnRestar"
+        android:onClick="multiplicar" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dividir"
+        android:id="@+id/btnDividir"
+        android:onClick="dividir"
+        android:layout_alignTop="@+id/btnMultiplicar"
+        android:layout_toRightOf="@+id/btnMultiplicar"
+        android:layout_toEndOf="@+id/btnMultiplicar" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText1"
+        android:inputType="number|numberDecimal"
+        android:layout_above="@+id/textView2"
+        android:layout_alignRight="@+id/btnDividir"
+        android:layout_alignEnd="@+id/btnDividir"
+        android:layout_marginRight="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_toEndOf="@+id/textView1"
+        android:layout_toRightOf="@+id/textView1"
+        android:layout_marginLeft="50dp"
+        android:shadowColor="#2d1382"
+        android:singleLine="false"
+        android:textColor="#0a2061"
+        android:textSize="30dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText2"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_toRightOf="@+id/btnRestar"
+        android:layout_alignRight="@+id/editText1"
+        android:layout_alignEnd="@+id/editText1"
+        android:inputType="number|numberDecimal"
+        android:layout_marginLeft="50dp"
+        android:shadowColor="#2d1382"
+        android:textColor="#0a2061"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Resultado"
+        android:id="@+id/textView3"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/btnMultiplicar"
+        android:layout_toStartOf="@+id/btnMultiplicar" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText3"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_toLeftOf="@+id/btnDividir"
+        android:layout_toRightOf="@+id/textView3"
+        android:layout_toEndOf="@+id/textView3"
+        android:shadowColor="#2d1382"
+        android:textColor="#0a2061"
+        android:layout_marginLeft="30dp"
+        android:inputType="number|numberDecimal"
+        android:textSize="30dp" />
+
+</RelativeLayout>

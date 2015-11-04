@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title></title>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width", initial-scale=1, maximum-scale=1/>
+        <script type="text/javascript" src=""></script>
+        <style>
+            #caja {
+                border: 3px;
+                border-style: solid;
+                border-color: #6A6A6A;
+                border-collapse: collapse;
+                padding-left: 30px;
+                padding-right: 30px;
+            }
+            a {
+                float:right;
+            }
+        </style>
+    </head>
+    <body>   
+        <div id="caja"><h1>En este primera práctica veremos como instalar un servidor web Apache y PHP en un Ubuntu Server ubicado sobre máquina virtual local:</h1>
+        <a href="../index.html">Volver al Home</a>
+        <h2>INSTALAR APACHE:</h2>
+
+        <p>Escribimos en consola:</p>
+
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# apt-get install apache2
+
+        <p>Con el siguiente comando obtenemos la IP en la que se ha alojado nuestro servidor web apache:</p>
+
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# ifconfig
+
+        <p>Comprobamos si funciona abriendo un navegador con la IP obtenida. Debería aparecer información oficial de Apache.</p>
+
+        <h2>INSTALACIÓN PHP:</h2>
+
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# apt-get install php5 libapache2-mod-php5
+
+        <p>Reiniciamos el servidor web:</p>
+
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# service apache2 restart
+
+        <p>El directorio www por defecto es:</p>
+
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var/www
+
+        <p>Creando un archivo info.php y con el código que se describirá abajo podemos cambiar la página de información de Apache por otra de la configuración de PHP. Para crear el archivo:</p>
+
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# nano var/www/info.php
+
+        <p>Escribir lo siguiente, guardar (Ctrl+O) y cerrar (Ctrl+X):</p>
+
+        <pre>&lt;?php</br>phpinfo();</br>?&gt;</pre>
+
+        <p>Si volvemos a escribir la IP de nuestro servidor web seguido de info.php observaremos dicha configuración.</p>
+
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# XXX.XXX.XXX.XXX/info.php
+
+        <p>Tendría que aparecer toda la información de configuración del PHP y sus módulos instalados.</p>
+
+        <p>A continuación buscamos el archivo php.ini y configuramos “display errors” en modo ON. De esta manera obtendremos los mensajes de errores de sintaxis en el navegador.</p></div>
+    </body>
+</html>
