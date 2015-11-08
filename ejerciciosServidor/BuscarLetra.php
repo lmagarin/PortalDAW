@@ -21,23 +21,19 @@
             $error = false;
 
             include 'Funciones/TestInput.php';
-            include 'Funciones/PosicionLetra.php';
-
+            
             if(isset($_POST['enviar'])){
                 if(empty($_POST['cadena']) || empty($_POST['letra'])){
                     $errCampo = "* Debe rellenar este campo.";
                     $error = true;
                 }
                 else{
-                    $cadena = test_input($cadena);
-                    $letra = test_input($letra);
-                    if(!preg_match("/^[a-zA-Z]+(\s*[a-zA-Z]*)*[a-zA-Z]+$/",$cadena)
-                        || !preg_match("/^[a-zA-Z]$/",$letra)){
-                        $errCampo = "* Solo puede contener caracteres del alfabeto y espacios.";
-                        $error = true;
-                    }
+                    $cadena = test_input($_POST['cadena']);
+                    $letra = test_input($_POST['letra']);
                 }
             }
+
+            include 'Funciones/PosicionLetra.php';
 
             echo "<form action='BuscarLetra.php' method='post'>
                     Escribe una frase, una letra y te diré la posición de la primera aparición de esa
@@ -48,7 +44,7 @@
                 </form>";
 
             if(isset($_POST['enviar']) && !$error){
-                echo "</br><h3>La posición de la primera aparición de la letra es: ".posicionLetra($cadena,$letra)."</h3>";
+                echo "</br><h3>La posición de la primera aparición de la letra ".$letra." es: ".posicionLetra($cadena,$letra)."</h3>";
             }
         ?>
         </br><a href="../ejercicios/vercodigo.php?src=../..<?php echo htmlspecialchars($_SERVER['PHP_SELF']);?>">

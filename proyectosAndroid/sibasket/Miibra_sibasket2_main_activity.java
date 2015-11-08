@@ -100,7 +100,16 @@ public class MainActivity extends AppCompatActivity {
                 TextView faltas1 = (TextView) findViewById(R.id.faltas1);
                 String valor = faltas1.getText().toString();
                 int numero = Integer.parseInt(valor);
-                numero = numero + 1;
+                if(numero < 4){
+                    numero = numero + 1;
+                }
+                else if(numero == 4){
+                    numero = 0;
+                    mostrarExpulsion("Jugador expulsado");
+                }
+                else {
+                    numero = 1;
+                }
                 valor = String.valueOf(numero);
                 faltas1.setText(valor);
             }
@@ -126,7 +135,16 @@ public class MainActivity extends AppCompatActivity {
                 TextView faltas2 = (TextView) findViewById(R.id.faltas2);
                 String valor = faltas2.getText().toString();
                 int numero = Integer.parseInt(valor);
-                numero = numero + 1;
+                if(numero < 4){
+                    numero = numero + 1;
+                }
+                else if(numero == 4){
+                    numero = 0;
+                    mostrarExpulsion("Jugador expulsado");
+                }
+                else {
+                    numero = 1;
+                }
                 valor = String.valueOf(numero);
                 faltas2.setText(valor);
             }
@@ -176,6 +194,10 @@ public class MainActivity extends AppCompatActivity {
 
     private void mostrar(int puntos){
         Toast.makeText(this, "Canasta!!: +" + puntos, Toast.LENGTH_LONG).show();
+    }
+
+    private void mostrarExpulsion(String cadena){
+        Toast.makeText(this, "" + cadena, Toast.LENGTH_LONG).show();
     }
 }
 
