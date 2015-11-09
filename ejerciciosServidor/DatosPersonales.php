@@ -1,4 +1,5 @@
-﻿<?php
+﻿<?php include("HistorialNavegacionCookie.php"); ?>
+<?php
     session_start();
     if(!isset($_SESSION['ok'])){
         $_SESSION['ok'] = true;

@@ -1,7 +1,7 @@
 <?php include("HistorialNavegacionCookie.php"); ?>
 <?php
     /**
-    * Script que guarda un usuario y un password como cookie.
+    * Script que loguea a un usuario mediante formulario y permite el borrado de las cookies.
     * @author Rafa Miranda
     * @version 1.0
     */
@@ -21,17 +21,20 @@
         else{
             $usuario = $_POST['usuario'];
             $password = $_POST['password'];
-            if(isset($_POST['guardar'])){
-                setcookie('usuario', $usuario, time()+3600);
-                setcookie('password', $password, time()+3600);
-            }
+            setcookie('usuario', $usuario, time()+3600);
+            setcookie('password', $password, time()+3600);   
         } 
+    }
+    
+    if(isset($_POST['borrar'])){
+        setcookie('usuario', $usuario, time()-1);
+        setcookie('password', $password, time()-1);
     }
 ?>
 <!DOCTYPE html>
 <html lang="es">
     <head>
-        <title>Guardar Cookie</title>
+        <title>Login y Borrado Cookie</title>
         <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width", initial-scale="1", maximum-scale="1"/>
         <script type="text/javascript" src=""></script>
@@ -41,15 +44,18 @@
         if(isset($_POST['enviar']) && $errCampo == ""){
             echo "Usuario autenticado";
         }
+        elseif(isset($_POST['borrar']) && $errCampo == ""){
+            echo "Cookie de usuario borrada";
+        }
         else{
-            echo "<form action='GuardarCookie.php' method='post'>
+            echo "<form action='LoginYBorradoCookie.php' method='post'>
                        Usuario:<input type='text' name='usuario' value='".$usuario."' maxlength='15'/>
                        <font color='red'>".$errCampo."</font>
                        </br></br>
                        Password:<input type='password' name='password' value='".$password."' maxlength='15'/>
                        <font color='red'>".$errCampo."</font>
                        </br></br>
-                       <input type='checkbox' name='guardar'>Guardar la cookie?
+                       <input type='submit' name='borrar' value='Borrar Cookie'/>
                        <input type='submit' name='enviar' value='Enviar'/>
                    </form>";
         }

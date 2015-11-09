@@ -1,4 +1,5 @@
-﻿<html>
+﻿<?php include("HistorialNavegacionCookie.php"); ?>
+<html>
     <body>
     <?php
         /**

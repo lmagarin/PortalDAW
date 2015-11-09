@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿<?php include("HistorialNavegacionCookie.php"); ?>
+<!DOCTYPE html>
 <html lang="es">
     <head>
         <title>Juego Barcos</title>
