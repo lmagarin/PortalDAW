@@ -5,9 +5,9 @@
 */
 
 function ordenar(){
-    var numero1 = document.getElementById("numero1").value;
-    var numero2 = document.getElementById("numero2").value;
-    var numero3 = document.getElementById("numero3").value;
+    var numero1 = parseInt(document.getElementById("numero1").value);
+    var numero2 = parseInt(document.getElementById("numero2").value);
+    var numero3 = parseInt(document.getElementById("numero3").value);
     var resultado = document.getElementById("resultado");
     var menor;
     var medio;
