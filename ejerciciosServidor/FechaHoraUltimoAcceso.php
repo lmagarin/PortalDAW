@@ -1,26 +1,15 @@
 ﻿<?php include("HistorialNavegacionCookie.php"); ?>
 <?php
-    /*$nombreArchivo = 'HistorialNavegacionCookie.php';
+    $nombreArchivo = 'HistorialNavegacionCookie.php';
     $info = getdate();
-    $dia = $info[3];
-    $mes = $info[5];
-    $anno = $info[6];
-    $hora = $info[2];
-    $minuto = $info[1];
-    $segundo = $info[0];
-    setcookie('dia', $dia, Time()+1000000);
-    setcookie('mes', $mes, Time()+1000000);
-    setcookie('anno', $anno, Time()+1000000);
-    setcookie('hora', $hora, Time()+1000000);
-    setcookie('minuto', $minuto, Time()+1000000);
-    setcookie('segundo', $segundo, Time()+1000000);
-    if (file_exists($nombreArchivo)) {
-        echo "La última vez que se accedió al archivo '$nombreArchivo' fue el ".$_COOKIE['dia']." de ".$_COOKIE['mes']." de ".$_COOKIE['anno'].", a las ".$_COOKIE['hora'].":".$_COOKIE['minuto'].":"$_COOKIE['segundo'];
-    }*/
-    $nombreArchivo = 'FechaHoraUltimoAcceso.php';
-    if (file_exists($nombreArchivo)) {
-        echo "La última vez que se accedió al archivo '$nombreArchivo' fue: " . date("F d Y H:i:s.", fileatime($nombreArchivo));
+    $fecha = $info["mday"]."-".$info["mon"]."-".$info["year"].". ".$info["hours"].":".$info["minutes"].":".$info["seconds"];
+    if(isset($_COOKIE['ultimaConexion'])){
+        echo "El último acceso a este archivo fue: ".$_COOKIE['ultimaConexion'];
     }
+    else {
+        echo "No se ha accedido anteriormente a este archivo";
+    }
+    setcookie('ultimaConexion', $fecha, Time()+1000000);
 ?>
 <!DOCTYPE html>
 <html>
