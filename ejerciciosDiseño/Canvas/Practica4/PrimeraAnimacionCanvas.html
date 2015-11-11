@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Rafael Miranda Ibañez</title>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width", initial-scale=1, maximum-scale=1/>
+    <script>
+        function cargaContextoCanvas(idCanvas){
+            var elemento = document.getElementById(idCanvas);
+            if(elemento && elemento.getContext){
+                var contexto = elemento.getContext('2d');
+                if(contexto){
+                    return contexto;
+                }
+            }
+            return false;
+        }
+        var contexto;
+        i = 50;
+        j = 50;
+        window.onload = function(){
+            contexto = cargaContextoCanvas('micanvas');
+            if(contexto){ 
+                setInterval("animacionRectangulos()", 500);
+            }
+        }
+        function animacionRectangulos(){
+            if(i<900){
+                contexto.fillStyle = colorAleatorio();
+                contexto.fillRect(i,j,50,50);
+                contexto.fillStyle = "rgb(255,255,255)";
+                contexto.fillRect(i-50,j,50,50);
+                i += 50;
+            }
+            else {
+                contexto.fillStyle = "rgb(255,255,255)";
+                contexto.fillRect(i-50,j,50,50);
+                i = 50;
+                j += 50;
+                contexto.fillStyle = colorAleatorio();
+                contexto.fillRect(i,j,50,50);
+                contexto.fillStyle = "rgb(255,255,255)";
+                contexto.fillRect(i-50,j,50,50);
+                i += 50;
+            }
+        }
+        function colorAleatorio(){
+            return "rgb(" + aleatorio(0,255) + "," + aleatorio(0,255) + "," + aleatorio(0,255) + ")";
+        }
+        function aleatorio(inferior,superior){
+            numPosibilidades = superior - inferior;
+            aleat = Math.random() * numPosibilidades;
+            aleat = Math.floor(aleat);
+            return parseInt(inferior) + aleat;
+        }
+    </script>
+
+    </head>
+    <body>
+    <h3>Usando la Api Canvas para dibujar rectángulos, crea una animación desarrollada por ti. Se valorará la original.</h3>
+    <canvas id="micanvas" width="900" height="650">
+        Contenido que sólo verán los usuarios que no soportan canvas en su navegador. Usa una versión moderna de Firefox, Chrome, Safari, Opera... casi todos los navegadores excepto Explorer son compatibles con Canvas.
+    </canvas>
+    </body>
+</html>

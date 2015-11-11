@@ -1,6 +1,5 @@
-﻿<?php include("HistorialNavegacionCookie.php"); ?>
+<?php include("HistorialNavegacionCookie.php"); ?>
 <?php
-    $nombreArchivo = 'HistorialNavegacionCookie.php';
     $info = getdate();
     $fecha = $info["mday"]."-".$info["mon"]."-".$info["year"].". ".$info["hours"].":".$info["minutes"].":".$info["seconds"];
     if(isset($_COOKIE['ultimaConexion'])){

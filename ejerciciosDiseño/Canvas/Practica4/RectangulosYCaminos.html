@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Rafael Miranda Ibañez</title>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width", initial-scale=1, maximum-scale=1/>
+        <script>
+        function cargaContextoCanvas(idCanvas){
+            var elemento = document.getElementById(idCanvas);
+            if(elemento && elemento.getContext){
+                var contexto = elemento.getContext('2d');
+                if(contexto){
+                    return contexto;
+                }
+            }
+            return false;
+        }
+        window.onload = function(){
+            var contexto = cargaContextoCanvas('micanvas');
+            if(contexto){
+                contexto.beginPath();
+                contexto.moveTo(50,20);
+                contexto.lineTo(50,100);
+                contexto.lineTo(100,60);
+                contexto.lineTo(50,20);
+                contexto.stroke();
+
+                contexto.fillStyle = '#C0B925';
+                contexto.fillRect(120,35,50,50);
+                
+                contexto.beginPath();
+                contexto.moveTo(200,100);
+                contexto.lineTo(230,20);
+                contexto.lineTo(260,100);
+                contexto.stroke();
+                contexto.beginPath();
+                contexto.moveTo(200,60);
+                contexto.lineTo(259,60);
+                contexto.stroke();
+
+                contexto.fillStyle = '#C0B925';
+                contexto.fillRect(300,35,50,50);
+
+                contexto.beginPath();
+                contexto.moveTo(390,20);
+                contexto.lineTo(410,100);
+                contexto.lineTo(430,20);
+                contexto.lineTo(450,100);
+                contexto.lineTo(470,20);
+                contexto.stroke();
+
+                contexto.fillStyle = '#C0B925';
+                contexto.fillRect(500,35,50,50);
+            }
+        }
+    </script>
+
+    </head>
+    <body>
+        <h3>Usando la Api Canvas, combina el uso para dibujar rectángulos con caminos desarrollada por ti. Se valorará la original.</h3>   
+       <canvas id="micanvas" width="1000" height="400">
+            Tu navegador no soporta canvas.
+        </canvas>
+    </body>
+</html>

@@ -1,0 +1,41 @@
+.list-group {
+    margin-left: 20px;
+}
+.jumbotron {
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.container p {
+    font-size: 40px;
+    display: inline;
+}
+body {
+    padding-bottom: 0px;
+}
+.pie {
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #EEEEEE;
+    z-index: -1;
+}
+.izquierda{
+    float: left;
+}
+.derecha {
+    float: right;
+    margin-right: 15px;
+}
+#android {
+    clear: both;
+}
+.seccion {
+    text-align: center;
+}
+#scroll {
+    overflow: auto;
+}
+.dropdown-menu {
+    z-index: 1;
+}

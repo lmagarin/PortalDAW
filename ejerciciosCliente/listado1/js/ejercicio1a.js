@@ -1,28 +1,21 @@
 ﻿function evento(){
-    /*if(document.getElementsByName("repetir").value == "si"){
-        window.close();
-        opener.location.reload();
-    }
-    else{
-        window.close();
-    }*/
-
-    var rad = document.getElementsByName("repetir");
-var prev = null;
-for(var i = 0; i < rad.length; i++) {
-    rad[i].onclick = function() {
-        (prev)? console.log(prev.value):null;
-        if(this !== prev) {
-            prev = this;
-        }
-        console.log(this.value)
-    };
-}
+    document.getElementById("repetirSi").onclick = recargar;
+    document.getElementById("repetirNo").onclick = cerrar;
 }
 
-
-
-window.onload = function(){
-    document.getElementById("eleccion").onclick = evento;
-    //document.getElementById("eleccion").addEventListener("DOMContentLoaded", evento, false);
+function recargar(){
+    
+    window.opener.location.reload();
+    window.close();
 }
+
+function cerrar(){
+    window.close();
+}
+
+/**
+* Manejador de la aplicación que lanza el método abrirNuevaVentana() cuando el window se ha cargado completamente.
+*/
+window.addEventListener("load", function({
+    window.addEventListener("click", evento);
+});

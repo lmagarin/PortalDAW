@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Rafael Miranda Ibañez</title>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width", initial-scale=1, maximum-scale=1/>
+    <script>
+        function cargaContextoCanvas(idCanvas){
+            var elemento = document.getElementById(idCanvas);
+            if(elemento && elemento.getContext){
+                var contexto = elemento.getContext('2d');
+                if(contexto){
+                    return contexto;
+                }
+            }
+            return false;
+        }
+
+        var contexto;
+        var imagen1 = new Image();
+        imagen1.src = 'hombre1.png';
+        var imagen2 = new Image();
+        imagen2.src = 'hombre2.png';
+        var imagen3 = new Image();
+        imagen3.src = 'hombre3.png';
+        var imagen4 = new Image();
+        imagen4.src = 'hombre4.png';
+        var numero = 1;
+
+        window.onload = function(){
+            contexto = cargaContextoCanvas('micanvas');
+            if(contexto){
+                setInterval("animacionHombre()", 150);
+            }
+        }
+        function animacionHombre(){
+            contexto.clearRect(0,0,800,600);
+            switch(numero){
+                case 1:
+                    contexto.drawImage(imagen1, 400, 10);
+                    break;
+                case 2:
+                    contexto.drawImage(imagen2, 400, 10);
+                    break;
+                case 3:
+                    contexto.drawImage(imagen3, 500, 10);
+                    break;
+                case 4:
+                    contexto.drawImage(imagen4, 400, 10);
+                    numero = 1;
+                    break;
+            }
+            numero++;
+        }
+    </script>
+
+    </head>
+    <body>
+    <h3>Crea una animación usando imágenes.</h3>
+    <canvas id="micanvas" width="900" height="650">
+        Contenido que sólo verán los usuarios que no soportan canvas en su navegador. Usa una versión moderna de Firefox, Chrome, Safari, Opera... casi todos los navegadores excepto Explorer son compatibles con Canvas.
+    </canvas>
+    </body>
+</html>

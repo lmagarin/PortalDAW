@@ -1,6 +1,11 @@
 <?php include("HistorialNavegacionCookie.php"); ?>
 <?php
-    $visitas = $_COOKIE['cookieVisitas'];
+    $visitas;
+    if(isset($_COOKIE['cookieVisitas'])){
+        $visitas = $_COOKIE['cookieVisitas'];
+    }else{
+        $visitas = 0;
+    }
     $visitas += 1;
     setcookie('cookieVisitas', $visitas, time()+10000000000);
 ?>

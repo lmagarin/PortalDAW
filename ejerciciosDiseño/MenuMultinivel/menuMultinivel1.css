@@ -1,0 +1,57 @@
+﻿* {
+    font-family: sans-serif;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+nav > ul > li {
+    float: left;
+}
+
+nav > ul > li a {
+    background-color: #0c9ba0;
+    color: #FFF;
+    display: block;
+    border: 1px solid;
+    padding: 10px 12px;
+}
+
+nav > ul > li a:hover {
+    background-color: #0fbfc6;
+}
+
+nav li .flecha {
+    font-size: 9px;
+    padding-left: 6px;
+    display: none;
+}
+
+nav li a:not(:last-child) .flecha {
+    display: inline;
+}
+
+nav li ul {
+    display: none;
+    min-width: 140px;
+    position: absolute; /* Los ul que se despliegan a la derecha se posicionan absolute en la posicion top:0, 140px.
+                            Y los li dentro de ese ul se posicion relative. Solo afecta al ul de segundo nivel
+                            porque deben tener un li como padre. Por eso el primer bloque de ul no se ve afectado.*/
+}
+
+nav li:hover > ul { /* Este "mayorque" impide que se desplieguen todos los ul hijos a partir del primer li.*/
+    display: block;
+}
+
+nav ul li {
+    position: relative;
+}
+
+nav li ul li ul {
+    left: 140px;
+    top: 0;
+    display: none;
+}
+
+

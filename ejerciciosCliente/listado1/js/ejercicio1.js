@@ -8,7 +8,7 @@
 * @version: 1.0
 */
 
-numeroSecreto = Math.floor((Math.random() * 100) + 1);
+var numeroSecreto = Math.floor((Math.random() * 100) + 1);
 console.log(numeroSecreto);
 
 function comprobar(){   
@@ -24,18 +24,26 @@ function comprobar(){
             }
             else {
                 var nuevaVentana = window.open("","","height=300,width=400,top=200,left=300");
-                nuevaVentana.document.write("<html><head><title>Acierto!!</title><script type='text/javascript'"+
-                    "src='js/ejercicio1a.js'></script></head><body>");
-                nuevaVentana.document.write("<h1>Has acertado!!!</h1></br><h3>Desear repetir el juego?</h3>");
-                nuevaVentana.document.write("<form><input type='radio' name='repetir' value='no' checked>NO");
-                nuevaVentana.document.write("<input type='radio' name='repetir' value='si'>SI</br></br>");
-                nuevaVentana.document.write("<input type='submit' id='eleccion'"+
-                    "value='Elegir'></form></body></html>");
+                nuevaVentana.document.write(
+                    "<html>"+
+                        "<head>"+
+                            "<title>Acierto!!</title>"+
+                            "<script type='text/javascript' src='js/ejercicio1a.js'></script>"+
+                            "<link rel='stylesheet' type='text/css' href='css/listado1.css'>"+
+                        "</head>"+
+                        "<body>"+
+                            "<h1>Has acertado!!!</h1></br>"+
+                            "<h3>Desear repetir el juego?</h3>"+
+                            "<input type='button' id='repetirSi' value='SI'>"+
+                            "<input type='button' id='repetirNo' value='NO'></br></br>"+
+                        "</body>"+
+                    "</html>");
+                nuevaVentana.document.close();
             }
         } while(numero =! numeroSecreto);
     }
 }
 
-document.getElementById("comprobar").addEventListener("click", function(){
-    comprobar();
+window.addEventListener("load", function(){
+    document.getElementById("comprobar").addEventListener("click", comprobar);
 });

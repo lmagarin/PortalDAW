@@ -1,0 +1,145 @@
+﻿body {
+    font-family: Lucida Sans Unicode;
+    font-size: 13px;
+    border: 1px solid;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    background-color: #497887;
+    text-align: center;
+}
+
+body h1{
+    position: relative;
+    text-transform: capitalize;
+    left: 0;
+    transition: all 3s;
+}
+
+body:hover h1{
+    left: 400px;
+    text-transform: uppercase;
+}
+
+nav {
+    text-align: center;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color: #5A0802;
+}
+
+ul {
+    margin: 2px;
+}
+
+li {
+    margin: 0;
+    border: 1px outset;
+    border-color: white;
+    list-style: none;
+    display: inline-block;
+    width: 100px;
+    transition: all 2s;
+}
+
+li:hover {
+    width: 130px;
+    box-shadow: 7px 7px 7px;
+}
+
+#central {
+    width: 100%;
+    min-height: 500px;
+    background-color: #D9BC71;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    width: 70%;
+    margin: 0;
+    padding: 0px;
+    padding-right: 10px;
+    display: inline-block;
+    border-right: 1px solid;
+    min-height: 500px;
+}
+
+aside {
+    vertical-align: top;
+    width: 23%;
+    margin: 0;
+    display: inline-block;
+    min-height: 500px;
+}
+
+article {
+    width: 934px;
+    border: 1px solid;
+    margin-top: 15px;
+    margin-left: 5px;
+    transition: all 1s;
+}
+
+article:hover {
+    width: 945px;
+    height: 230px;
+    font-size: 110%;
+    font-weight: bolder;
+}
+
+footer {
+    border-top: 1px solid;
+    margin: 0;
+    text-align: center;
+    clear: both;
+    background-color: #497887;
+}
+
+p {
+    border-top: 1px solid;
+    margin: 1px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 30px;
+}
+
+h2 {
+    text-align: center;
+    margin: 0px;
+    font-size: 20px;
+    color: white;
+    background-color: #5A0802;
+}
+
+h3 {
+    margin: 0;
+    font-size: 17px;
+}
+
+.rrss {
+    text-align: center;
+    margin:10px;
+    border: 1px solid; 
+    height: 180px;
+    width:80%;
+    color: white;
+    vertical-align: top;
+    background-color: #5A0802;
+    transition: all 1s;
+}
+
+.rrss:hover {
+    width: 90%;
+    height: 220px;
+}

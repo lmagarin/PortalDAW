@@ -1,0 +1,175 @@
+/* Página ppal*/
+#web{
+	border-radius:20px;/*Después de footer y header*/
+	box-shadow:0px 0px 10px #000;/*Después de footer y header*/
+	margin:0 auto;
+	width:960px;
+}
+
+header{
+	background-color:#3B5988;
+	border-radius:20px 20px 0px 0px;/*Después de footer*/
+	color:white;
+	padding:1px;
+	text-align:center;
+}
+
+main{
+	background-color:#879DCC;
+	min-height:450px;
+	padding:1%;
+	width:98%;
+}
+
+nav{
+	background-color: #132D63;
+	padding:2px;
+	text-align:center;
+}
+
+nav ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+
+nav ul>li{
+	background-color:#6E8CCC;
+	border:1px outset #6E8CCC;
+	color:white;
+	cursor:pointer;/*manita del ratón*/
+	display:inline-block;
+	padding:2px;
+	width:150px;
+}
+
+
+
+
+aside section{ /* Parte final, cuando pongamos el contenido del aside */
+	background-color:white;
+	border-radius:20px;
+	margin:2px;
+	min-height:170px;/*Mirar resultado*/
+	text-align:center;
+}
+
+
+footer{
+	background-color:#3B5998;/*Mismo cabecera*/
+	border-radius:0px 0px 20px 20px;
+	color:white;
+	padding:5px;
+	text-align:center;
+}
+
+
+article{
+	text-align:justify;
+}
+
+article div{
+	padding:2px;
+}
+
+/* Fin página ppal*/
+/* Ejemplos*/
+
+.izquierda {
+	display: inline-block;
+	padding-top: 10px;
+	margin-left: 100px;
+	margin-right: 100px;
+	width: 350px;
+}
+
+.rectangulo {
+	width: 150px;
+	height: 75px;
+	background-color: #D8B926;
+	border: 2px solid black;
+	border-radius: 4px;
+	margin: 40px auto;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.rectangulo2 {
+	width: 150px;
+	height: 75px;
+	background-color: #D8B926;
+	border: 2px solid black;
+	border-radius: 4px;
+	margin: 40px auto;
+	margin-left: 40px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#translate2d .rectangulo:hover {
+	transform: translate(10px,20px);
+} 
+
+#rotate2d .rectangulo:hover {
+	transform: rotate(30deg);
+}
+
+#rotate2d .rectangulo2:hover {
+	transform: rotate(-30deg);
+}
+
+#skew2d .rectangulo:hover {
+	transform: skewX(20deg);
+}
+
+#skew2d .rectangulo2:hover {
+	transform: skewY(20deg);
+}
+
+#scale2d .rectangulo:hover {
+	transform: scale(1.5,2);
+}
+
+#scale2d .rectangulo2:hover {
+	transform: scale(0.7,0.8);
+}
+
+#matrix2d .rectangulo:hover {
+	transform: matrix(1,-0.3,0,1,0,0);
+}
+
+#matrix2d .rectangulo2:hover {
+	transform: matrix(1,0,0.5,1,50,0);
+}
+
+#translate3d .rectangulo:hover{
+	transform-style: preserve-3d;
+	transform: translate3d(0px, 0px, -20px);
+}
+
+#rotate3d .rectangulo{
+	transition: 4s;
+}
+
+#rotate3d .rectangulo:hover{
+	transform: rotate3d(1,1,1,360deg);
+}
+
+#scale3d .rectangulo:hover{
+	transform: scale3d(1,1,40);
+}
+
+#perspective .rectangulo{
+    animation: mymove 5s infinite;
+    perspective: 400px;
+}
+
+@keyframes mymove {
+    50% {perspective: 100px;}
+}
+
+.div2 {
+    transform: rotateX(45deg);
+}
+
+/*Fin ejemplos*/
