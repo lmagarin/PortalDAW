@@ -1,17 +1,22 @@
 ﻿<?php
     session_start();
-    $usuario = "";
-    $password = "";
-    $errorCampo = "";
+    $msgError = "";
     
     if(!isset($_SESSION['autenticacion'])){
         $_SESSION['autenticacion'] = false;
-    }
-    else {
-        include ("VerificarLogin.php");
+        $_SESSION['usuario'] = "";
+        $_SESSION['password'] = "";
+        $_SESSION['errorCampo'] = "";
     }
     
-    include ("../CerrarSesion.php");
+    if(isset($_GET['error'])){
+        if($_GET['error'] == 1){
+            $msgError = "Usuario no existe";
+        }
+        if($_GET['error'] == 2){
+            $msgError = "Password incorrecto";
+        }
+    }
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -26,22 +31,25 @@
     <body>
         <section>
             <?php
-                if($_SESSION['autenticacion'] == true){ 
-                    echo "<div><h1>Datos Personales</h1>
-                            <p>Usuario:&nbsp;".$usuario."</p>
-                            <p>Password-.&nbsp;".$password."</p>
-                            </div>
+                if($_SESSION['autenticacion'] == true){
+                    echo "<div>
+                            <h1>Usuario Logueado</h1><br/>
+                            <h2>Datos Personales</h2>
+                            <p>Usuario:&nbsp;".$_SESSION['usuario']."</p>
+                            <p>Password:&nbsp;".$_SESSION['password']."</p>
+                            </div><br/>
                             <p><a href='PaginaPublica.php'>Acceso Página Pública</a></p>
-                            <p><a href='PaginaPrivada.php'>Acceso Página Privada</a></p>
-                            <p><a href='CerrarSesion.php'>Cerrar Sesión</a></p>";
+                            <p><a href='PaginaPrivada.php'>Acceso Página Privada</a></p><br/>
+                            <p><a href='../CerrarSesion.php'>Cierre de Sesión</a></p>";
                 }
                 else {
-                    echo "<form method='post'>
-                            Usuario:<input type='text' name='usuario'/>".$errorCampo."<br/><br/>
-                            Password:<input type='password' name='password'/>".$errorCampo."<br/><br/>
+                    echo "<form action='VerificarLogin.php' method='post'>
+                            Usuario:<input type='text' name='usuario'/>".$_SESSION['errorCampo']."<br/><br/>
+                            Password:<input type='password' name='password'/>".$_SESSION['errorCampo']."<br/><br/>
                             <input type='submit' name='enviar' value='Enviar'/>
                         </form><br/><br/>
                         <p><a href='PaginaPublica.php'>Acceso Página Pública</a></p>";
+                    echo $msgError;
                 }
             ?>
         </section>
