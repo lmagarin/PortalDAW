@@ -1,0 +1,33 @@
+body {
+    font-family: Helvetica;
+}
+
+#derecha {
+    position: absolute;
+    left: 900px;
+}
+
+#derecha a {
+    text-decoration: none;
+}
+
+#derecha h1 {
+    font-family: Verdana;
+    color: #005D00;
+    font-weight: bolder;
+    font-size: 350%;
+}
+
+table {
+    border: 1px solid green;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid green;
+    border-collapse: collapse;
+    text-align: center;
+    width: 70px;
+    font-size: 230%;
+    color: red;
+}
