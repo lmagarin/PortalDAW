@@ -24,6 +24,7 @@
         $cantidadTreintaSelected = "";
         $verbosElegidos = array();
         $valor = "";
+        $casillasVacias = array();
         $verbos = array(
                         array("Infinitivo"=>"Be", "Pasado"=>"Was/Were", "Participio"=>"Been", "Traduccion"=>"Ser"),
                         array("Infinitivo"=>"Beat", "Pasado"=>"Beat", "Participio"=>"Beaten", "Traduccion"=>"Golpear/Latir"),
@@ -127,14 +128,15 @@
                         echo "<tr>";
                         $filaVacia = true;
                         echo "<input type='hidden' name='verbosElegidos[]' value='$key'>";
-                        foreach($valu as $clave=>$valor){
+                        for($i=0; $i<count($valu); $i++){
+                        /*foreach($valu as $clave=>$valor){*/
                             $aleatCasilla = rand(0,10);
-                                switch ($clave) {
+                                switch ($i) {
                                     case 'Traduccion':
                                         if($filaVacia){
                                             echo "<td>$valor</td>";
                                             $filaVacia = false;
-                                            break;
+                                            echo "<input type='hidden' name='casillasVacias[]' value='false'>";                                            break;
                                         }
                                     case 'Infinitivo':
                                     case 'Pasado':
@@ -142,9 +144,11 @@
                                         if ($aleatCasilla<$nivel) {
                                             echo "<td>$valor</td>";
                                             $filaVacia = false;
-                                        }
+                                            echo "<input type='hidden' name='casillasVacias[]' value='false'>";                                        }
                                         else {
-                                            echo "<td><input type='text' name='verbos[]' value=''></td>";
+                                            echo "<input type='hidden' name='ocultos[]' value='$valor'>";
+                                            echo "<input type='hidden' name='casillasVacias[]' value='true'>";
+                                            echo "<td><input type='text' name='respuestas[]' value=''></td>";
                                         }
                                         break;
                                     default:
@@ -178,7 +182,34 @@
             echo "</table>";
         }
         if(isset($_POST['comprobar'])){
-
+            $respuestas = $_POST['respuestas'];
+            $verbosElegidos = $_POST['verbosElegidos'];
+            $ocultos = $_POST['ocultos'];
+            $casillasVacias = $_POST['casillasVacias'];
+            $posRespuestas = 0;
+            print_r($casillasVacias);
+            echo "</br></br>";
+            print_r($ocultos);
+            echo "<table border='1' style='border-collapse:collapse; text-align:center;'>";
+            echo "<td>Infinitivo</td><td>Pasado</td><td>Participio</td><td>Traduccion</td>";
+            foreach($verbosElegidos as $value){ //recorro el array de verbos elegidos
+                echo "<tr>";
+                foreach($verbos as $clave => $verbo){ //recorro las filas del array principal
+                    if($value == $clave){ //si el numero de fila es igual a la fila actual en el array principal
+                        foreach($verbo as $valor){ //recorro esa fila en el array principal
+                            if($casillasVacias[$valor] && $respuestas[$posRespuestas] == $valor){ //compruebo que es casilla vacia y lo escrito por usuario es correcto
+                                echo "<td>$valor</td>"; //imprimo el verbo
+                            }
+                            else {
+                                echo "<td><input type='text' name='respuestas[]' value=''></td>"; //pinto casilla blanca
+                            }
+                            $posRespuestas++; 
+                        }
+                    }
+                }
+                echo "</tr>";
+            }
+            echo "</table>";
         }
         ?>
         </br></br><a href="../ejerciciosServidor/vercodigo.php?src=../..<?php echo htmlspecialchars($_SERVER['PHP_SELF']);?>">

@@ -35,7 +35,7 @@ body {
 }
 #scroll {
     overflow: auto;
-    min-height: 550px; 
+    min-height: 600px; 
 }
 .dropdown-menu {
     z-index: 1;
