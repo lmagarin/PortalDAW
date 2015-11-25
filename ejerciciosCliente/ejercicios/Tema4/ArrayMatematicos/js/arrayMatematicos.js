@@ -3,13 +3,9 @@
     var columnas1;
     var filas2;
     var columnas2;
-    var valores1;
-    var valores2;
-    var enviar;
     var array1;
     var array2;
     var operacion;
-    var tamano;
 
     document.getElementById("operacion").addEventListener("focusout", generarFormulario);
 
@@ -25,32 +21,32 @@
         }
     }
 
-    ArraysMatematicos.prototype.sumar = function(array2) {
+    ArraysMatematicos.prototype.sumar = function(matriz) {
         var arraySuma;
-        if(!this.comprobarDimensiones(array2)){
+        if(!this.comprobarDimensiones(matriz)){
             alert("Error en las dimensiones");
         }
         else {
-            arraySuma = new ArraysMatematicos(array1.filas, array1.columnas);
-            for (var i = 0; i < arraySuma.filas; i++) {
-                for (var j = 0; j < arraySuma.columnas; j++) {
-                    arraySuma.contenido[i][j] = array1.contenido[i][j] + array2.contenido[i][j];
+            arraySuma = new ArraysMatematicos(this.filas, this.columnas);
+            for (var i = 0; i < this.filas; i++) {
+                for (var j = 0; j < this.columnas; j++) {
+                    arraySuma.contenido[i][j] = this.contenido[i][j] + matriz.contenido[i][j];
                 }
             }
             return arraySuma;
         }
     }
 
-    ArraysMatematicos.prototype.restar = function(array2) {
+    ArraysMatematicos.prototype.restar = function(matriz) {
         var arrayResta;
-        if(!this.comprobarDimensiones(array2)){
+        if(!this.comprobarDimensiones(matriz)){
             alert("Error en las dimensiones");
         }
         else {
-            arrayResta = new ArraysMatematicos(array1.filas, array1.columnas);
-            for (var i = 0; i < arrayResta.filas; i++) {
-                for (var j = 0; j < arrayResta.columnas; j++) {
-                    arrayResta.contenido[i][j] = array1.contenido[i][j] - array2.contenido[i][j];
+            arrayResta = new ArraysMatematicos(this.filas, this.columnas);
+            for (var i = 0; i < this.filas; i++) {
+                for (var j = 0; j < this.columnas; j++) {
+                    arrayResta.contenido[i][j] = this.contenido[i][j] - matriz.contenido[i][j];
                 }
             }
             return arrayResta;
@@ -58,26 +54,26 @@
     }
 
     ArraysMatematicos.prototype.trasponer = function() {
-        var arrayTraspuesta = new ArraysMatematicos(array1.columnas, array1.filas);
+        var arrayTraspuesta = new ArraysMatematicos(this.columnas, this.filas);
         for(var i = 0; i < arrayTraspuesta.filas; i++){
             for(var j = 0;j < arrayTraspuesta.columnas; j++){
-                arrayTraspuesta.contenido[i][j] = array1.contenido[j][i];
+                arrayTraspuesta.contenido[i][j] = this.contenido[j][i];
             }
         }
         return arrayTraspuesta;
     }
 
-    ArraysMatematicos.prototype.multiplicar = function(array2) {
+    ArraysMatematicos.prototype.multiplicar = function(matriz) {
         var arrayProducto;
-        if(array1.filas != array2.columnas || array1.columnas != array2.filas){
+        if(this.columnas != matriz.filas){
             alert("Las matrices no pueden multiplicarse por sus tamaños. las columnas de la primera matriz deben ser igual a las filas de la segunda.");
         }
         else{
-            arrayProducto = new ArraysMatematicos(filas1, columnas2);
-            for (var i = 0; i < array1.filas; i++){
-                for (var j = 0; j < array2.columnas; j++){
-                    for (var k = 0; k < array1.columnas; k++) {
-                        arrayProducto.contenido[i][j] += array1.contenido[i][k] * array2.contenido[k][j];
+            arrayProducto = new ArraysMatematicos(this.filas, matriz.columnas);
+            for (var i = 0; i < this.filas; i++){
+                for (var j = 0; j < matriz.columnas; j++){
+                    for (var k = 0; k < this.columnas; k++) {
+                        arrayProducto.contenido[i][j] += this.contenido[i][k] * matriz.contenido[k][j];
                     }
                 }
             }
@@ -85,8 +81,8 @@
         }
     }
 
-    ArraysMatematicos.prototype.comprobarDimensiones = function(array2){
-        if(array1.filas === array2.filas && array1.columnas === array2.columnas){
+    ArraysMatematicos.prototype.comprobarDimensiones = function(matriz){
+        if(this.filas === matriz.filas && this.columnas === matriz.columnas){
             return true;
         }
         else {
@@ -96,7 +92,7 @@
 
     function generarFormulario(){
         operacion = document.getElementById("operacion").value;
-        tamano = document.getElementById("tamano");
+        var tamano = document.getElementById("tamano");
         if(operacion != "trasponer"){
             tamano.innerHTML = "Numero filas primera matriz:<br/>"+
                     "<input type='text' id='filas1'/><br/></br>"+
@@ -121,12 +117,12 @@
     function generarCasillas(){
         filas1 = document.getElementById("filas1").value;
         columnas1 = document.getElementById("columnas1").value;
-        valores1 = document.getElementById("valores_matriz1");
-        enviar = document.getElementById("enviar");
+        var valores1 = document.getElementById("valores_matriz1");
+        var enviar = document.getElementById("enviar");
         if(operacion != "trasponer"){
             filas2 = document.getElementById("filas2").value;
             columnas2 = document.getElementById("columnas2").value;
-            valores2 = document.getElementById("valores_matriz2");
+            var valores2 = document.getElementById("valores_matriz2");
             valores1.innerHTML += "Matriz 1:</br>";
             for (var i = 0; i < filas1; i++) {
                 for (var j = 0; j < columnas1; j++) {
