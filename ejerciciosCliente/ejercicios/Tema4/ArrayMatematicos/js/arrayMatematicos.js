@@ -18,9 +18,9 @@
         this.columnas = columnas;
         this.contenido = new Array(filas);
         for (var i = 0; i < filas; i++) {
-            this.contenido[i]=new Array(columnas);
+            this.contenido[i] = new Array(columnas);
             for (var j = 0; j < columnas; j++) {
-                this.contenido[i][j]  =0;
+                this.contenido[i][j] = 0;
             }
         }
     }
@@ -31,10 +31,10 @@
             alert("Error en las dimensiones");
         }
         else {
-            arraySuma = new ArraysMatematicos(this.filas, this.columnas);
+            arraySuma = new ArraysMatematicos(array1.filas, array1.columnas);
             for (var i = 0; i < arraySuma.filas; i++) {
                 for (var j = 0; j < arraySuma.columnas; j++) {
-                    arraySuma.contenido[i][j] = this.contenido[i][j] + array2.contenido[i][j];
+                    arraySuma.contenido[i][j] = array1.contenido[i][j] + array2.contenido[i][j];
                 }
             }
             return arraySuma;
@@ -47,10 +47,10 @@
             alert("Error en las dimensiones");
         }
         else {
-            arrayResta = new ArraysMatematicos(this.filas, this.columnas);
+            arrayResta = new ArraysMatematicos(array1.filas, array1.columnas);
             for (var i = 0; i < arrayResta.filas; i++) {
                 for (var j = 0; j < arrayResta.columnas; j++) {
-                    arrayResta.contenido[i][j] = this.contenido[i][j] + array2.contenido[i][j];
+                    arrayResta.contenido[i][j] = array1.contenido[i][j] - array2.contenido[i][j];
                 }
             }
             return arrayResta;
@@ -58,10 +58,10 @@
     }
 
     ArraysMatematicos.prototype.trasponer = function() {
-        var arrayTraspuesta = new ArraysMatematicos(this.columnas, this.filas);
+        var arrayTraspuesta = new ArraysMatematicos(array1.columnas, array1.filas);
         for(var i = 0; i < arrayTraspuesta.filas; i++){
             for(var j = 0;j < arrayTraspuesta.columnas; j++){
-                arrayTraspuesta.contenido[i][j] = this.contenido[j][i];
+                arrayTraspuesta.contenido[i][j] = array1.contenido[j][i];
             }
         }
         return arrayTraspuesta;
@@ -86,7 +86,7 @@
     }
 
     ArraysMatematicos.prototype.comprobarDimensiones = function(array2){
-        if(this.filas === array2.filas && this.columnas === array2.columnas){
+        if(array1.filas === array2.filas && array1.columnas === array2.columnas){
             return true;
         }
         else {
