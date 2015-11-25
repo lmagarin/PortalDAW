@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Desarrollo Web Desde Cero</title>
+        <meta charset="utf-8"/>
+        <meta http-equiv="refresh" content="500"/> <!-- Eliminar en páginas en produccion -->
+        <meta name="description" content=""/>
+        <meta name="keywords" content=""/>
+        <meta name="viewport" content="width=device-width", initial-scale="1", maximum-scale="1"/>
+        <link rel="stylesheet" type="text/css" href="css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="css/estilo.css">
+        <script type="text/javascript" src="js/canvasLinea.js"></script>
+    </head>
+    <body>
+        <div id="izquierda">
+            <header>
+                <h1>Desarrollo Web Desde Cero</h1></br>
+                <canvas id="micanvas" width="500" height="20">
+                    Contenido que sólo verán los usuarios que no soportan canvas en su navegador. Usa una versión moderna de Firefox, Chrome, Safari, Opera... casi todos los navegadores excepto Explorer son compatibles con Canvas.
+                </canvas>
+            </header>
+            <nav>
+               <ul>
+                   <li><a href="index.html">Inicio</a></li>
+                   <li><a href="sobremi.html">Sobre mi</a></li>
+                   <li><a href="contacto.html">Contacto</a></li>
+               </ul>
+            </nav>
+        </div>
+        <div id="derecha">
+            <ul>
+               <li><img href="#" src="images/github.png"></li>
+               <li><img href="#" src="images/twitter.png"></li>
+               <li id="delicious"><img href="#" src="images/delicious.png"></li>
+               <li><img href="#" src="images/linkedin.png"></li>
+               <li><img href="#" src="images/rss.png"></li>
+           </ul>
+        </div> 
+        <main id="contacto">
+            <section>
+                <form action="#" method="post">
+                    <table>
+                        <tr>
+                            <td><p>Introduce tu nombre</p></td>
+                            <td><input type="text" size=50% required name="nombre"/></td>
+                        </tr>
+                        <tr>
+                            <td><p>Introduce tu email</p></td>
+                            <td><input type="email" size=50% value="ejemplo: usuario@dominio.com" name="email"/></td>
+                        </tr>
+                        <tr>
+                            <td><p>Escribe tu mensaje</p></td>
+                            <td><textarea cols=50% rows=6 name="mensaje"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><input type="submit" value="Enviar"></td>
+                        </tr>
+                    </table>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <h3>Rafael Miranda Ibañez - Desarrollador de Aplicaciones Web</h3>
+        </footer>
+    </body>
+</html>

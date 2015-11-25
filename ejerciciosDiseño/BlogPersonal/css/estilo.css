@@ -1,0 +1,298 @@
+﻿* {
+    font-family: Lucida, Helvetica, sans-serif;
+}
+
+body {
+    background: rgba(0,0,0,1);
+    background: -moz-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 5%, rgba(44,44,44,1) 41%, rgba(26,26,26,1) 94%, rgba(19,19,19,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,0,0,1)), color-stop(5%, rgba(0,0,0,1)), color-stop(41%, rgba(44,44,44,1)), color-stop(94%, rgba(26,26,26,1)), color-stop(100%, rgba(19,19,19,1)));
+    background: -webkit-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 5%, rgba(44,44,44,1) 41%, rgba(26,26,26,1) 94%, rgba(19,19,19,1) 100%);
+    background: -o-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 5%, rgba(44,44,44,1) 41%, rgba(26,26,26,1) 94%, rgba(19,19,19,1) 100%);
+    background: -ms-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 5%, rgba(44,44,44,1) 41%, rgba(26,26,26,1) 94%, rgba(19,19,19,1) 100%);
+    background: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 5%, rgba(44,44,44,1) 41%, rgba(26,26,26,1) 94%, rgba(19,19,19,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#131313', GradientType=0 );
+}
+
+header {
+    height: 190px;
+    padding-top: 20px;
+}
+
+h1 {
+    color: #FFF;
+    font-size: 250%;
+    padding: 25px 30px;
+    display: inline;
+    transition: all 3s;
+}
+
+body:hover h1 {
+    color: #98E915;
+    font-size: 350%;
+}
+
+#izquierda {
+    display: inline-block;
+}
+
+#izquierda ul {
+    color: #FFF;
+    position: absolute;
+    transform: translate(0px,-50px);
+}
+
+#izquierda li {
+    display: inline-block;
+    font-size: 130%;
+    padding: 0 30px 0 30px;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+#derecha {
+    float: right;
+    margin-right: 50px;
+}
+
+#derecha li {
+    display: inline-block;
+    padding: 15px;
+}
+
+#delicious {
+    transform: translate(0,-3px);
+}
+
+#index {
+    width: 68%;
+    min-height: 300px;
+    margin: 0 10px 0 30px;
+    display: inline-block;
+}
+
+main h3 {
+    font-size: 20px;
+    color: #FFF;
+    text-shadow: 1px 1px 0px #000,
+    -1px 1px 0px #000,
+    1px -1px 0px #000,
+    -1px -1px 0px #000;
+    transition: all 2s;
+}
+
+#superior {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 10px;
+    display: inline-block;
+    transition: all 2s;
+}
+
+#superior:hover {
+    -webkit-box-shadow: -2px -2px 0px 2px rgba(152,233,21,0.99);
+    -moz-box-shadow: -2px -2px 0px 2px rgba(152,233,21,0.99);
+    box-shadow: -2px -2px 0px 2px rgba(152,233,21,0.99);
+}
+
+#micanvas2 {
+    position: relative;
+    left: 400px;
+    top: -40px;
+}
+
+#index section {
+    padding-top: 20px;
+    padding-bottom: 5px;
+    background: rgba(255,255,255,0.1);
+}
+
+article:hover h3{
+    color: #000;
+    font-size: 23px;
+    font-weight: bolder;
+    text-shadow: none;
+}
+
+article {
+    min-height: 200px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color: #d1caca;
+    transition: all 1s;
+}
+
+.efecto-article:hover {
+    box-shadow: inset 0 0 1em black;
+    background-color: white;
+}
+
+.img_art {
+    width: 25%;
+    height: 200px;
+    margin: 15px;
+    display: inline-block;
+}
+
+#img_arti1 {
+    background-image: url("../images/apache.png");
+}
+
+#img_arti2 {
+    background-image: url("../images/screaming.jpg");
+}
+
+#img_arti3 {
+    background-image: url("../images/code.png");
+}
+
+.cont_arti {
+    width: 60%;
+    display: inline-block;
+}
+
+.cont_arti > p {
+    padding-left: 50px;
+}
+
+#sobremi {
+    width: 70%;
+    min-height: 380px;
+}
+
+#art_sobremi {
+    margin-top: 50px;
+    margin-left: 200px;
+    width: 90%;
+}
+
+#art_sobremi:hover {
+    -webkit-box-shadow: inset -4px -4px 0px 4px rgba(152,233,21,0.99);
+    -moz-box-shadow: inset -4px -4px 0px 4px rgba(152,233,21,0.99);
+    box-shadow: inset -4px -4px 0px 4px rgba(152,233,21,0.99);
+}
+
+#img_sobremi {
+    background-image: url("../images/sobremi.jpg");
+}
+
+#cont_sobremi {
+    width: 70%;
+    display: inline-block;
+}
+
+#cont_sobremi > p {
+    font-family: 'Bilbo', cursive;
+    font-size: 30px;
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+article h3 {
+    padding-left: 15px;
+}
+
+aside {
+    width: 25%;
+    min-height: 1000px;
+    background-color: #1C1C1C;
+    margin: 0 30px 0 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+aside h3 {
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#widget_twitter {
+    width: 75%;
+    min-height: 250px;
+    margin: 0 auto;
+    margin-top: 15px;
+    background-image: url("../images/widget_twitter.png");
+}
+
+#articulos_anteriores {
+    background-color: #333333;
+    margin-left: 41px;
+    margin-right: 41px;
+    transition: all 2s;
+}
+
+#articulos_anteriores ul {
+    list-style-type: none;
+    padding: 5px;
+    font-size: 13px;
+}
+
+#articulos_anteriores li {
+    padding-top: 2px;
+    padding-bottom: 7px;
+}
+
+#articulos_anteriores:hover {
+    -webkit-box-shadow: inset -2px -2px 0px 2px rgba(152,233,21,0.99);
+    -moz-box-shadow: inset -2px -2px 0px 2px rgba(152,233,21,0.99);
+    box-shadow: inset -2px -2px 0px 2px rgba(152,233,21,0.99);
+}
+
+form {
+    padding-top: 70px;
+    padding-left: 130px;
+    width: 125%;
+    min-height: 360px;
+    background: rgba(255,255,255,0.1);
+    margin: 0 auto;
+    text-align: center;
+    background-image: url("../images/envelope.png");
+}
+
+td {
+    width: 50%;
+}
+
+td p {
+    font-size: 130%;
+}
+
+input[required]{
+    border-color:green;
+    box-shadow: 0px 0px 5px green;
+}
+
+input:invalid{
+    border-color:red;
+    box-shadow: 0px 0px 50px red;
+    border-radius: 0px 5px 0px 5px;
+}
+
+form input, form textarea{
+    background:rgba(255,255,255,0.5);
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+    transition: background 1s, box-shadow: 1s; border 1s;
+}
+
+form input:hover, form textarea:hover{
+    background:rgba(255,255,255,1);
+    box-shadow: 0px 0px 5px rgba(255,255,255,1);
+    -webkit-box-shadow: 0px 0px 5px rgba(255,255,255,1);
+}
+
+footer {
+    margin: 0;
+    text-align: center;
+    clear: both;
+    color: #FFF;
+}
+
+footer h3 {
+    margin: 0;
+    font-size: 17px;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Generar SQL desde Fichero</title>
+        <meta charset="utf-8"/>
+        <meta http-equiv="refresh" content="5"/> <!-- Eliminar en páginas en produccion -->
+        <meta name="description" content=""/>
+        <meta name="keywords" content=""/>
+        <meta name="viewport" content="width=device-width", initial-scale="1", maximum-scale="1"/>
+        <script type="text/javascript" src=""></script>
+    </head>
+    <body>   
+        <header>
+           <h1>Generar SQL desde Fichero</h1>
+        </header>
+        <section>
+            <form enctype="multipart/form-data" action="SQLdesdeFichero.php" method="post">
+                Fichero:<input type="file" name="fichero"></br>
+                Prefijo:<input type="text" name="prefijo"></br>
+                Sufijo:<input type="text" name="sufijo"></br>
+                Password:<input type="text" name="password"></br>
+                Enviar:<input type="submit" name="enviar" value="Enviar"></br>
+            </form>
+        </section>
+    </body>
+</html>

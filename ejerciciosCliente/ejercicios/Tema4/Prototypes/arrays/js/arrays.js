@@ -14,7 +14,7 @@ Array.prototype.anadir = function(elemento, repetir){
     else {
         var existe = false;
         for (var i = 0; i < this.length; i++) {
-            if(this[i] == elemento){
+            if(this[i] === elemento){
                 existe = true;
             }
         }
