@@ -60,7 +60,7 @@
                 }
                 $i++;
             }
-            echo "</table><p><a href='../ejercicios/vercodigo.php?src=CalendarioMes.php'>Ver Código Fuente</a>";
+            echo "</table><p><a href='../ejerciciosServidor/vercodigo.php?src=CalendarioMes.php'>Ver Código Fuente</a>";
             echo "&nbsp;&nbsp;&nbsp;||&nbsp;&nbsp;&nbsp;<a href='../index.html'>Volver a Inicio</a></p>";
         ?>
     </body>

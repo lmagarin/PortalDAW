@@ -24,7 +24,7 @@
             $radio = 5;
             $area = PI * $radio * $radio;
             echo "El área de tu círculo es:</br> $area</br>";
-            echo "<a href='../ejercicios/vercodigo.php?src=AreaCirculo.php'>Ver Código Fuente</a>";
+            echo "<a href='../ejerciciosServidor/vercodigo.php?src=AreaCirculo.php'>Ver Código Fuente</a>";
             echo "&nbsp;&nbsp;&nbsp;||&nbsp;&nbsp;&nbsp;<a href='../index.html'>Volver a Inicio</a>";
             ?>
         </section>

@@ -35,7 +35,7 @@
             echo "Apellidos: Miranda Ibáñez</br>";
             echo "Email: r.miranda.ibanez@gmail.com</br>";
             echo "<img src='./images/picture.png'>";
-            echo "<a href='../ejercicios/vercodigo.php?src=DatosPersonales.php'>Ver Código Fuente</a>";
+            echo "<a href='../ejerciciosServidor/vercodigo.php?src=DatosPersonales.php'>Ver Código Fuente</a>";
             echo "&nbsp;&nbsp;&nbsp;||&nbsp;&nbsp;&nbsp;<a href='../index.html'>Volver a Inicio</a>";
             ?>
         </section>

@@ -64,7 +64,7 @@
         }
         echo "</table>";
 
-        echo "</br><a href='../ejercicios/vercodigo.php?src=CartaRestaurante.php'>Ver Código Fuente</a>";
+        echo "</br><a href='../ejerciciosServidor/vercodigo.php?src=CartaRestaurante.php'>Ver Código Fuente</a>";
         echo "&nbsp;&nbsp;&nbsp;||&nbsp;&nbsp;&nbsp;<a href='../index.html'>Volver a Inicio</a>";
         ?>
     </body>

@@ -20,7 +20,7 @@
             echo "Mes: $valor</br>";
         }
         
-        echo "</br><a href='../ejercicios/vercodigo.php?src=MesesAnno.php'>Ver Código Fuente</a>";
+        echo "</br><a href='../ejerciciosServidor/vercodigo.php?src=MesesAnno.php'>Ver Código Fuente</a>";
         echo "&nbsp;&nbsp;&nbsp;||&nbsp;&nbsp;&nbsp;<a href='../index.html'>Volver a Inicio</a>";
         ?>
     </body>

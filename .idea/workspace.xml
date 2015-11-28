@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0773f327-3129-4d25-86da-9db1f1d40dd3" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CerrarSesion.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosAndroid/Miibra_Pr1_Events_activity_main.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosAndroid/Miibra_Pr1_layouts_activity_main.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosAndroid/Miibra_Pr1b_Events_activity_main.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosAndroid/Miibra_Pr2_layouts_activity_main.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosAndroid/Miibra_Pr2b_Events_activity_main.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosAndroid/Miibra_Pr3_layouts_activity_main.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosAndroid/Miibra_Pr4_layouts_activity_main.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosAndroid/Miibra_Pr5_layouts_activity_main.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/ejercicios/Tema3/css/tareatema3.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/ejercicios/Tema3/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/ejercicios/Tema3/js/nuevaVentana.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/ejercicios/Tema3/js/tareatema3.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/ejercicios/Tema3/multiplesVentanas/cerrar_ventana.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/ejercicios/Tema3/multiplesVentanas/multiples_ventanas.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/ejercicios/Tema3/multiplesVentanas/multiples_ventanas.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/ejercicios/Tema3/nuevaVentana/apariencia_nueva_ventana.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/ejercicios/Tema3/nuevaVentana/apariencia_nueva_ventana.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/ejercicios/Tema4/ArrayMatematicos/css/estilo.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/ejercicios/Tema4/ArrayMatematicos/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/ejercicios/Tema4/ArrayMatematicos/js/arrayMatematicos.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/ejercicios/Tema4/Arrays/css/estilo.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/ejercicios/Tema4/Arrays/ejercicio1.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/ejercicios/Tema4/Arrays/ejercicio10.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/ejercicios/Tema4/Arrays/ejercicio2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/ejercicios/Tema4/Arrays/ejercicio3.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/ejercicios/Tema4/Arrays/ejercicio4.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/ejercicios/Tema4/Arrays/ejercicio5.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/ejercicios/Tema4/Arrays/ejercicio6.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/ejercicios/Tema4/Arrays/ejercicio7.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/ejercicios/Tema4/Arrays/ejercicio8.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/ejercicios/Tema4/Arrays/ejercicio9.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/ejercicios/Tema4/Arrays/image/ejemplo_foreach.PNG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/ejercicios/Tema4/Arrays/image/foreach_navegadores.PNG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/ejercicios/Tema4/Arrays/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/ejercicios/Tema4/Arrays/js/ejercicio1.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/ejercicios/Tema4/Arrays/js/ejercicio10.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/ejercicios/Tema4/Arrays/js/ejercicio2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/ejercicios/Tema4/Arrays/js/ejercicio3.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/ejercicios/Tema4/Arrays/js/ejercicio4.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/ejercicios/Tema4/Arrays/js/ejercicio5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/ejercicios/Tema4/Arrays/js/ejercicio6.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/ejercicios/Tema4/Arrays/js/ejercicio7.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/ejercicios/Tema4/Arrays/js/ejercicio8.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/ejercicios/Tema4/Arrays/js/ejercicio9.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/ejercicios/Tema4/Closures/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/ejercicios/Tema4/Closures/js/nuevaVentana.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/ejercicios/Tema4/Closures/js/primos.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/ejercicios/Tema4/Prototypes/arrays/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/ejercicios/Tema4/Prototypes/arrays/js/arrays.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/ejercicios/Tema4/Prototypes/factura/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/ejercicios/Tema4/Prototypes/factura/js/factura.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/ejercicios/Tema4/Prototypes/string/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/ejercicios/Tema4/Prototypes/string/js/string.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/ejercicios/multiplesVentanas/cerrar_ventana.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/ejercicios/multiplesVentanas/multiples_ventanas.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/ejercicios/multiplesVentanas/multiples_ventanas.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/ejercicios/nuevaVentana/apariencia_nueva_ventana.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/ejercicios/nuevaVentana/apariencia_nueva_ventana.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/ejercicios/tareaTema3/css/tareatema3.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/ejercicios/tareaTema3/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/ejercicios/tareaTema3/js/nuevaVentana.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/ejercicios/tareaTema3/js/tareatema3.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/ejercicios/tutorialArrays/css/estilo.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/ejercicios/tutorialArrays/ejercicio1.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/ejercicios/tutorialArrays/ejercicio10.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/ejercicios/tutorialArrays/ejercicio2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/ejercicios/tutorialArrays/ejercicio3.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/ejercicios/tutorialArrays/ejercicio4.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/ejercicios/tutorialArrays/ejercicio5.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/ejercicios/tutorialArrays/ejercicio6.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/ejercicios/tutorialArrays/ejercicio7.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/ejercicios/tutorialArrays/ejercicio8.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/ejercicios/tutorialArrays/ejercicio9.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/ejercicios/tutorialArrays/image/ejemplo_foreach.PNG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/ejercicios/tutorialArrays/image/foreach_navegadores.PNG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/ejercicios/tutorialArrays/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/ejercicios/tutorialArrays/js/ejercicio1.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/ejercicios/tutorialArrays/js/ejercicio10.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/ejercicios/tutorialArrays/js/ejercicio2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/ejercicios/tutorialArrays/js/ejercicio3.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/ejercicios/tutorialArrays/js/ejercicio4.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/ejercicios/tutorialArrays/js/ejercicio5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/ejercicios/tutorialArrays/js/ejercicio6.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/ejercicios/tutorialArrays/js/ejercicio7.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/ejercicios/tutorialArrays/js/ejercicio8.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/ejercicios/tutorialArrays/js/ejercicio9.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/listado1/css/listado1.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/listado1/ejercicio1.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/listado1/ejercicio10.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/listado1/ejercicio11.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/listado1/ejercicio12.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/listado1/ejercicio13.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/listado1/ejercicio14.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/listado1/ejercicio15.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/listado1/ejercicio16.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/listado1/ejercicio17.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/listado1/ejercicio18.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/listado1/ejercicio19.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/listado1/ejercicio2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/listado1/ejercicio20.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/listado1/ejercicio3.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/listado1/ejercicio4.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/listado1/ejercicio5.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/listado1/ejercicio6.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/listado1/ejercicio7.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/listado1/ejercicio8.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/listado1/ejercicio9.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/listado1/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/listado1/js/ejercicio1.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/listado1/js/ejercicio10.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/listado1/js/ejercicio11.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/listado1/js/ejercicio12.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/listado1/js/ejercicio13.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/listado1/js/ejercicio14.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/listado1/js/ejercicio15.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/listado1/js/ejercicio16.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/listado1/js/ejercicio17.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/listado1/js/ejercicio18.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/listado1/js/ejercicio19.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/listado1/js/ejercicio1a.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/listado1/js/ejercicio2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/listado1/js/ejercicio20.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/listado1/js/ejercicio3.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/listado1/js/ejercicio4.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/listado1/js/ejercicio5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/listado1/js/ejercicio6.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/listado1/js/ejercicio7.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/listado1/js/ejercicio8.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/listado1/js/ejercicio9.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/tareaTema3/css/tareatema3.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/tareaTema3/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/tareaTema3/js/nuevaVentana.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/tareaTema3/js/tareatema3.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosCliente/tareaTema3/tareatema3.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosDiseño/BlogPersonal/contacto.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosDiseño/BlogPersonal/css/estilo.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosDiseño/BlogPersonal/css/normalize.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosDiseño/BlogPersonal/images/apache.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosDiseño/BlogPersonal/images/code.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosDiseño/BlogPersonal/images/delicious.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosDiseño/BlogPersonal/images/envelope.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosDiseño/BlogPersonal/images/envelopes.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosDiseño/BlogPersonal/images/github.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosDiseño/BlogPersonal/images/laptop.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosDiseño/BlogPersonal/images/linkedin.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosDiseño/BlogPersonal/images/rss.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosDiseño/BlogPersonal/images/screaming.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosDiseño/BlogPersonal/images/sobremi.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosDiseño/BlogPersonal/images/twitter.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosDiseño/BlogPersonal/images/widget_twitter.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosDiseño/BlogPersonal/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosDiseño/BlogPersonal/js/canvas.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosDiseño/BlogPersonal/sobremi.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosDiseño/CSS3Transformaciones/css3transformaciones.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosDiseño/CSS3Transformaciones/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosDiseño/Canvas/MiPrimerCanvas.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosDiseño/Canvas/Practica4/PrimeraAnimacionCanvas.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosDiseño/Canvas/Practica4/RectangulosYCaminos.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosDiseño/Canvas/Practica5/ArcosYCirculos.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosDiseño/Canvas/Practica5/FiguraYDegradado.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosDiseño/Canvas/Practica5/ImagenAnimada.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosDiseño/Canvas/Practica5/ImagenesYEdicion.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosDiseño/Canvas/Practica5/hombre1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosDiseño/Canvas/Practica5/hombre2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosDiseño/Canvas/Practica5/hombre3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosDiseño/Canvas/Practica5/hombre4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosDiseño/Canvas/Practica5/playa.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosDiseño/Canvas/SegundoCanvas.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosDiseño/Canvas/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosDiseño/HTML5BoilerPlate_Initializr/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosDiseño/HTML5BoilerPlate_Initializr/404.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosDiseño/HTML5BoilerPlate_Initializr/apple-touch-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosDiseño/HTML5BoilerPlate_Initializr/browserconfig.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosDiseño/HTML5BoilerPlate_Initializr/contacto.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosDiseño/HTML5BoilerPlate_Initializr/crossdomain.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosDiseño/HTML5BoilerPlate_Initializr/css/main.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosDiseño/HTML5BoilerPlate_Initializr/css/normalize.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosDiseño/HTML5BoilerPlate_Initializr/css/normalize.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosDiseño/HTML5BoilerPlate_Initializr/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosDiseño/HTML5BoilerPlate_Initializr/humans.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosDiseño/HTML5BoilerPlate_Initializr/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosDiseño/HTML5BoilerPlate_Initializr/js/main.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosDiseño/HTML5BoilerPlate_Initializr/js/plugins.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosDiseño/HTML5BoilerPlate_Initializr/js/vendor/jquery-1.11.2.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosDiseño/HTML5BoilerPlate_Initializr/js/vendor/modernizr-2.8.3.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosDiseño/HTML5BoilerPlate_Initializr/otraPagina1.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosDiseño/HTML5BoilerPlate_Initializr/otraPagina2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosDiseño/HTML5BoilerPlate_Initializr/robots.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosDiseño/HTML5BoilerPlate_Initializr/tile-wide.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosDiseño/HTML5BoilerPlate_Initializr/tile.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosDiseño/HTML5BolierPlate_Initializr/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosDiseño/HTML5BolierPlate_Initializr/404.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosDiseño/HTML5BolierPlate_Initializr/apple-touch-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosDiseño/HTML5BolierPlate_Initializr/browserconfig.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosDiseño/HTML5BolierPlate_Initializr/contacto.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosDiseño/HTML5BolierPlate_Initializr/crossdomain.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosDiseño/HTML5BolierPlate_Initializr/css/main.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosDiseño/HTML5BolierPlate_Initializr/css/normalize.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosDiseño/HTML5BolierPlate_Initializr/css/normalize.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosDiseño/HTML5BolierPlate_Initializr/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosDiseño/HTML5BolierPlate_Initializr/humans.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosDiseño/HTML5BolierPlate_Initializr/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosDiseño/HTML5BolierPlate_Initializr/js/main.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosDiseño/HTML5BolierPlate_Initializr/js/plugins.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosDiseño/HTML5BolierPlate_Initializr/js/vendor/jquery-1.11.2.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosDiseño/HTML5BolierPlate_Initializr/js/vendor/modernizr-2.8.3.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosDiseño/HTML5BolierPlate_Initializr/otraPagina1.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosDiseño/HTML5BolierPlate_Initializr/otraPagina2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosDiseño/HTML5BolierPlate_Initializr/robots.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosDiseño/HTML5BolierPlate_Initializr/tile-wide.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosDiseño/HTML5BolierPlate_Initializr/tile.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosDiseño/MenuMultinivel/menuMultinivel1.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosDiseño/MenuMultinivel/menuMultinivel1.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosDiseño/MenuMultinivel/menuMultinivel2.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosDiseño/MenuMultinivel/menuMultinivel2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosDiseño/WebEfectos/efectosWeb.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosDiseño/WebEfectos/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosServidor/AreaCirculo.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosServidor/ArrayAsociativo.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosServidor/ArraySimple.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosServidor/AutenticacionBasicoSesiones.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosServidor/AutenticacionIndex.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosServidor/BorrarCookie.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosServidor/BuscarLetra.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosServidor/CabeceraEstacional.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosServidor/CalendarioFormulario.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosServidor/CalendarioMes.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosServidor/CartaRestaurante.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosServidor/CheckearCookieNavegador.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosServidor/ComprobarDNI.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosServidor/ContadorVisitas.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosServidor/ContadorVisitasCookie.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosServidor/CookieHabilitadaNavegador.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosServidor/CurriculumVitae.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosServidor/DatosPersonales.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosServidor/Error.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosServidor/EstadoDestruccionCookie.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosServidor/FechaHoraUltimoAcceso.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosServidor/FormularioContrasena.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosServidor/Funciones/BuscarIniciales.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosServidor/Funciones/PosicionLetra.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosServidor/Funciones/SumaDigitosRecursiva.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosServidor/Funciones/TestInput.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosServidor/Funciones/ValidacionContrasena.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosServidor/GuardarCookie.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosServidor/HistorialNavegacionCookie.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosServidor/HolaMundo.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosServidor/InfoCapitales.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosServidor/JuegoBarcos.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosServidor/LoginYBorradoCookie.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosServidor/Maquetacion/images/1-thumb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosServidor/Maquetacion/images/2-thumb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosServidor/Maquetacion/images/3-thumb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosServidor/Maquetacion/images/4-thumb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosServidor/Maquetacion/images/5-thumb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosServidor/Maquetacion/images/6-thumb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosServidor/Maquetacion/images/7-thumb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosServidor/Maquetacion/images/ad125.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosServidor/Maquetacion/images/bodybkg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosServidor/Maquetacion/images/cappuccino.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosServidor/Maquetacion/images/introbkg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosServidor/Maquetacion/images/introimage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosServidor/Maquetacion/images/navbg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosServidor/Maquetacion/images/rss.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosServidor/Maquetacion/includes/all_about_beans.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosServidor/Maquetacion/includes/art_making_coffee.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosServidor/Maquetacion/includes/coffee_101.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosServidor/Maquetacion/includes/coffee_sizzle.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosServidor/Maquetacion/includes/coffee_style.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosServidor/Maquetacion/includes/compatible_foods.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosServidor/Maquetacion/includes/footer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosServidor/Maquetacion/includes/header.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosServidor/Maquetacion/includes/inner_aside.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosServidor/Maquetacion/includes/inner_footer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosServidor/Maquetacion/includes/inner_header.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosServidor/Maquetacion/includes/inner_top_page.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosServidor/Maquetacion/includes/intro.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosServidor/Maquetacion/includes/tools_trade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosServidor/Maquetacion/includes/top_page.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosServidor/Maquetacion/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosServidor/Maquetacion/js/equalcolumns.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosServidor/Maquetacion/license.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosServidor/Maquetacion/pages.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosServidor/Maquetacion/pages/inner.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosServidor/Maquetacion/pages/inner2.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosServidor/Maquetacion/pages/inner3.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosServidor/Maquetacion/pages/inner4.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosServidor/Maquetacion/pages/inner5.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosServidor/Maquetacion/pages/inner6.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosServidor/Maquetacion/pages/inner7.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosServidor/Maquetacion/print.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosServidor/Maquetacion/styles.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosServidor/MesesAnno.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosServidor/MostrarHistorialNavegacionCookie.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosServidor/NombreApellido.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosServidor/NombreApellido.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosServidor/NombreApellidosIniciales.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosServidor/NotasAlumnos.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosServidor/PaginaPrivada.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosServidor/PaginaPublica.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosServidor/PaletaColores.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosServidor/SQLdesdeFichero.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosServidor/SesionesAgendaContactos.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosServidor/SesionesGestionAgenda.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosServidor/SesionesGestionModuloDWES.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosServidor/SesionesModuloDWES.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosServidor/SumaDigitos.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosServidor/SumarNumeros.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosServidor/VerbosIrregulares.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosServidor/VerificarLogin.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosServidor/ficheroAlumnos.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosServidor/formularioSQLFichero.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosServidor/practicaGuiadaForm.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ejerciciosServidor/vercodigo.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/estilo.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/argentina.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/barco.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/beef.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/cake.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/calamari.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/cordon_bleu.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/crema_catalana.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/france.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/fritura.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/fruit.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/invierno.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/iran.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/italy.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/japan.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/logoPHP.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/otoño.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/paella.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/pasta.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/picture.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/primavera.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/salad.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/soup.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/spain.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/usa.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/verano.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/waves.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/proyectosAndroid/sibasket/Miibra_sibasket2_activity_main.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/proyectosAndroid/sibasket/Miibra_sibasket2_main_activity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/proyectosServidor/buscaminas/banderaBlanca.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/proyectosServidor/buscaminas/bomba.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/proyectosServidor/buscaminas/buscaminas.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/proyectosServidor/buscaminas/codigoJS.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/proyectosServidor/buscaminas/estilo.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/proyectosServidor/buscaminas/interrogacion.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/proyectosServidor/juegoVerbosIrregulares.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/proyectosServidor/practica1.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/proyectosServidor/practica1.odt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/proyectosServidor/pruebaVerbos.php" afterPath="" />
+    </list>
+    <ignored path="PortalDAW.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="PortalDAW" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="33" />
+    <option name="y" value="179" />
+    <option name="width" value="1346" />
+    <option name="height" value="728" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PortalDAW" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0773f327-3129-4d25-86da-9db1f1d40dd3" name="Default" comment="" />
+      <created>1448530684848</created>
+      <option name="number" value="Default" />
+      <updated>1448530684848</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="33" y="179" width="1346" height="728" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962406" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+</project>

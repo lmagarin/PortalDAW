@@ -63,7 +63,7 @@
                 <img style='float:right; height:200px' src='../images/otoño.png'/></div></header>";
             //echo $codigo.'#F14200'.$codigo2.'Otoño'.$codigo3.'otoño'.$codigo4;
         }
-        echo "</br><a href='../ejercicios/vercodigo.php?src=CabeceraEstacional.php'>Ver Código Fuente</a>";
+        echo "</br><a href='../ejerciciosServidor/vercodigo.php?src=CabeceraEstacional.php'>Ver Código Fuente</a>";
         echo "&nbsp;&nbsp;&nbsp;||&nbsp;&nbsp;&nbsp;<a href='../index.html'>Volver a Inicio</a>";
         ?>
     </body>

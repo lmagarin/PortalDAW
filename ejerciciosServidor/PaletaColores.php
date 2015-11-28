@@ -34,7 +34,7 @@
                 echo "</tr>";
             }
             echo "</table>";
-            echo "<a href='../ejercicios/vercodigo.php?src=PaletaColores.php'>Ver Código Fuente</a>";
+            echo "<a href='../ejerciciosServidor/vercodigo.php?src=PaletaColores.php'>Ver Código Fuente</a>";
             echo "&nbsp;&nbsp;&nbsp;||&nbsp;&nbsp;&nbsp;<a href='../index.html'>Volver a Inicio</a>";
         ?>
     </body>

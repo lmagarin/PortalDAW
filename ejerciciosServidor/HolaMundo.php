@@ -20,7 +20,7 @@
             * @version 1.0
             */
            echo "<h1>Hola Mundo</h1>";
-           echo "<a href='../ejercicios/vercodigo.php?src=HolaMundo.php'>Ver Código Fuente</a>";
+           echo "<a href='../ejerciciosServidor/vercodigo.php?src=HolaMundo.php'>Ver Código Fuente</a>";
            echo "&nbsp;&nbsp;&nbsp;||&nbsp;&nbsp;&nbsp;<a href='../index.html'>Volver a Inicio</a>";
            ?>
        </section>
