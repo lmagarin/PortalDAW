@@ -23,7 +23,7 @@
                 $errorApellidos = "";
                 $errorFecha = "";
                 $error = false;
-                include("Persona.php");
+                require_once("Persona.php");
                 if(isset($_POST["calcular"])){
                     if(!empty($_POST["nombre"])){
                         $nombre = $_POST["nombre"];
@@ -48,9 +48,9 @@
                     }
                 }
 
-                if(isset($_POST["enviar"]) && !$error){
+                if(isset($_POST["calcular"]) && !$error){
                     $persona = new Persona($nombre, $apellidos, $fecha);
-                    echo $persona->mostrarEdad();
+                    echo $persona -> calcularEdad();
                 }
                 else {
                     ?>

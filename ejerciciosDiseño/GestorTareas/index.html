@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Gestor de Tareas</title>
+        <meta charset="utf-8"/>
+        <meta http-equiv="refresh" content="50000"/> <!-- Eliminar en páginas en produccion -->
+        <meta name="description" content=""/>
+        <meta name="keywords" content=""/>
+        <meta name="viewport" content="width=device-width", initial-scale="1", maximum-scale="1"/>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/hover-min.css">
+        <link rel="stylesheet" href="css/botones.css">
+        <link rel="stylesheet" href="css/estilo.css">
+        <link href='https://fonts.googleapis.com/css?family=Exo+2:100' rel='stylesheet' type='text/css'>
+        <script type="text/javascript" src="js/javascript.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>GESTOR TAREAS</h1>
+        </header>
+        <main>
+            <section id="modulo">
+                <ul>
+                    <li><a id="DIW" href="#" class="button hvr-sweep-to-bottom">Diseño Interfaces Web</a></li>
+                    <li><a id="DWEC" href="#" class="button hvr-sweep-to-bottom">Desarrollo Web Entorno Cliente</a></li>
+                    <li><a id="DWES" href="#" class="button hvr-sweep-to-bottom">Desarrollo Web Entorno Servidor</a></li>
+                    <li><a id="DAW" href="#" class="button hvr-sweep-to-bottom">Despliegue Aplicaciones Web</a></li>
+                    <li><a id="EIE" href="#" class="button hvr-sweep-to-bottom">Empresas e Iniciativa Empresarial</a></li>
+                    <li><a id="HLC" href="#" class="button hvr-sweep-to-bottom">HLC: Android</a></li>
+                </ul>
+            </section>
+            <section id="tareas">
+                <div id="annadir"><a href="anadirTarea.html">
+                    <button class="btn btn-3 btn-3e icon-arrow-right">Añadir Nueva Tarea</button>
+                </a></div>
+                <article id="tarea1" class="pendiente">
+                    <p id="titulo1" class="titulo">Tarea 3: Desarrollar aplicaciones web para operar con arrays matemáticos</p>
+                    <img src="images/papelera.png" class="borrar"></img>
+                    <p class="fecha">29-11-15</p>
+                </article>
+                <article id="tarea2" class="pendiente">
+                    <p class="titulo">Tarea 4: Implementar Excepciones en Arrays Matemáticos</p>
+                    <img src="images/papelera.png" class="borrar"></img>
+                    <p class="fecha">30-11-15</p>
+                </article>
+                <article id="tarea3" class="pendiente">
+                    <p class="titulo">Tarea 5: Lindo Gatito</p>
+                    <img src="images/papelera.png" class="borrar"></img>
+                    <p class="fecha">03-12-15</p>
+                </article>
+            </section>
+            <section id="descripcion">
+                <h3 id="mensaje">Pulsa una tarea para ver la información</h3>
+                <div id="contenido">
+                    <h3>Fecha Entrega:</h3>
+                    <p id="fecha2"></p>
+                    <h3>Descripción:</h3>
+                    <p id="enunciado"></p>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <h3>Rafael Miranda Ibañez - Desarrollador de Aplicaciones Web</h3>
+        </footer>
+    </body>
+</html>

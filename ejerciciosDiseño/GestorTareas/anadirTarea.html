@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Gestor de Tareas</title>
+        <meta charset="utf-8"/>
+        <meta http-equiv="refresh" content="50000"/> <!-- Eliminar en páginas en produccion -->
+        <meta name="description" content=""/>
+        <meta name="keywords" content=""/>
+        <meta name="viewport" content="width=device-width", initial-scale="1", maximum-scale="1"/>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/hover-min.css">
+        <link rel="stylesheet" href="css/botones.css">
+        <link rel="stylesheet" href="css/estilo.css">
+        <link href='https://fonts.googleapis.com/css?family=Exo+2:100' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+        <header>
+            <h1><a href="index.html">GESTOR TAREAS</a></h1>
+        </header>
+        <main>
+            <section id="modulo">
+                <ul>
+                    <li><a id="DIW" href="#" class="button hvr-sweep-to-bottom">Diseño Interfaces Web</a></li>
+                    <li><a id="DWEC" href="#" class="button hvr-sweep-to-bottom">Desarrollo Web Entorno Cliente</a></li>
+                    <li><a id="DWES" href="#" class="button hvr-sweep-to-bottom">Desarrollo Web Entorno Servidor</a></li>
+                    <li><a id="DAW" href="#" class="button hvr-sweep-to-bottom">Despliegue Aplicaciones Web</a></li>
+                    <li><a id="EIE" href="#" class="button hvr-sweep-to-bottom">Empresas e Iniciativa Empresarial</a></li>
+                    <li><a id="HLC" href="#" class="button hvr-sweep-to-bottom">HLC: Android</a></li>
+                </ul>
+            </section>
+            <section id="annadir2">
+                <form id="formulario" action="#" method="post">
+                    <table>
+                        <tr>
+                            <td><p>Módulo</p></td>
+                            <td><input type="text" size=50% required name="modulo"/></td>
+                        </tr>
+                        <tr>
+                            <td><p>Nombre Tarea</p></td>
+                            <td><input type="text" size=50% name="tarea"/></td>
+                        </tr>
+                        <tr>
+                            <td><p>Fecha Entrega</p></td>
+                            <td><input type="date" size=50% name="fecha"/></td>
+                        </tr>
+                        <tr>
+                            <td><p>Descripcion</p></td>
+                            <td><textarea cols=70% rows=13 value="ejemplo: usuario@dominio.com" name="descripcion"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><button class="btn btn-2 btn-2h">Guardar</button></td>
+                        </tr>
+                    </table>
+                </form>
+            </section>    
+        </main>
+        <footer>
+            <h3>Rafael Miranda Ibañez - Desarrollador de Aplicaciones Web</h3>
+        </footer>
+    </body>
+</html>

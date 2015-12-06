@@ -8,9 +8,9 @@
  */
 class Persona
 {
-    private $nombre;
-    private $apellidos;
-    private $nacimiento;
+    private $_nombre;
+    private $_apellidos;
+    private $_nacimiento;
 
     public function __construct($nombre,$apellidos,$nacimiento)
     {
@@ -19,12 +19,7 @@ class Persona
         $this -> nacimiento = $nacimiento;
     }
 
-    public function mostrarEdad()
-    {
-        return $this -> calcularEdad();
-    }
-
-    private function calcularEdad()
+    public function calcularEdad()
     {
         $arrayNacimiento = explode("-", $this -> nacimiento);
 
@@ -53,6 +48,6 @@ class Persona
 
         $edad = ($anoActual - $anoNac);
 
-        return $edad;
+        return $this -> nombre . " tienes " . $edad . " años.";
     }
 }
