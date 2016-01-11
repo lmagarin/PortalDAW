@@ -25,7 +25,7 @@ window.addEventListener("load", function(){
 
     function gatoJugar(){
         habilitarBotonEdad();
-        document.getElementById("estado").style.border = "1px solid black";
+        divEstado.style.border = "1px solid black";
         divEstado.innerHTML = gato.jugar();
         var fotoEstado = document.getElementById("dcha");
         fotoEstado.src = gato.rutaImagenEstado;
@@ -36,7 +36,7 @@ window.addEventListener("load", function(){
 
     function gatoComer(){
         habilitarBotonEdad();
-        document.getElementById("estado").style.border = "1px solid black";
+        divEstado.style.border = "1px solid black";
         divEstado.innerHTML = gato.comer();
         var fotoEstado = document.getElementById("dcha");
         fotoEstado.src = gato.rutaImagenEstado;
@@ -47,7 +47,7 @@ window.addEventListener("load", function(){
 
     function gatoDormir(){
         habilitarBotonEdad();
-        document.getElementById("estado").style.border = "1px solid black";
+        divEstado.style.border = "1px solid black";
         divEstado.innerHTML = gato.dormir();
         var fotoEstado = document.getElementById("dcha");
         fotoEstado.src = gato.rutaImagenEstado;
@@ -58,7 +58,7 @@ window.addEventListener("load", function(){
 
     function gatoEdad(){
         if(edadPulsada == false){
-            document.getElementById("estado").style.border = "1px solid black";
+            divEstado.style.border = "1px solid black";
             var fechaNac = new Date(gato.ano,gato.mes,gato.dia);
             var diferencia = new Date().getTime() - fechaNac.getTime();
             var annos = Math.floor(diferencia / (1000 * 60 * 60 * 24 * 365.25));

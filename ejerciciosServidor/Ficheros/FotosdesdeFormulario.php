@@ -20,26 +20,17 @@
                                 <fieldset>
                                     <legend>Subida de imagen</legend>
                                         Imagen a subir:<input type='file' name='archivo' value='Subir imagen'><br><br>
-                                        Nombre del archivo (no incluir extensión):<input type='text' name='image' value=''><br><br>
                                         <input type='submit' name='enviar' value='Enviar'>
                                 </fieldset>
                             </form>";
                 }
                 else {
                     $ruta_subida = "/var/www/rafa/ejerciciosServidor/Ficheros/Galeria/";
-                    //$ruta_subida = $ruta_subida.$_FILES['archivo']['name'];
-                    $nombreArchivoImagen = "";
-                    if($_POST['image'] != "") {
-                        $nombreArchivoImagen = $_POST['image'];
-                    }
-                    
+                    $ruta_subida = $ruta_subida.$_FILES['archivo']['name'];
                     $array_ruta = explode(".", $ruta_subida);
                     $extension = $array_ruta[count($array_ruta)-1];
-                    $nombreArchivoImagen +=  "." . $extension;
-                    $ruta_final = $ruta_subida . "/" . $nombreArchivoImagen;
-
                     if($extension == "png" || $extension == "bmp" || $extension == "gif" || $extension == "jpg" || $extension == "tif") {
-                        if (move_uploaded_file($_FILES['archivo']['tmp_name'], $ruta_subida . "/" . $nombreArchivoImagen)) {
+                        if (move_uploaded_file($_FILES['archivo']['tmp_name'], $ruta_subida)) {
                             $mensaje = "El fichero " . $_FILES['archivo']['name'] . " se ha subido exitósamente";
                             echo $mensaje;
                         } else {
@@ -53,7 +44,7 @@
                 }
             ?>
         </section>
-        </br></br><a href="../vercodigo.php?src=../..<?php echo htmlspecialchars($_SERVER['PHP_SELF']);?>">
+        </br></br><a href="../vercodigo.php?src=..<?php echo htmlspecialchars($_SERVER['PHP_SELF']);?>">
             Ver Código Fuente</a>&nbsp;&nbsp;&nbsp;||&nbsp;&nbsp;&nbsp;<a href="../../index.html">Volver a Inicio</a></p>
     </body>
 </html>

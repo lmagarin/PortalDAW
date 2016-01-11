@@ -45,7 +45,7 @@
                 echo "</br></br><a href='../CerrarSesion.php'>Cerrar Sesión</a>";
             ?>
         </section>
-        </br><a href="../ejerciciosServidor/vercodigo.php?src=../..<?php echo htmlspecialchars($_SERVER['PHP_SELF']);?>">
+        </br><a href="../ejerciciosServidor/vercodigo.php?src=..<?php echo htmlspecialchars($_SERVER['PHP_SELF']);?>">
         Ver Código Fuente</a>&nbsp;&nbsp;&nbsp;||&nbsp;&nbsp;&nbsp;<a href="../index.html">Volver a Inicio</a></p>
     </body>
 </html>

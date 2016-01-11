@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Formulario Completo</title>
+        <meta charset="utf-8"/>
+        <meta http-equiv="refresh" content="5000"/> <!-- Eliminar en páginas en produccion -->
+        <meta name="description" content=""/>
+        <meta name="keywords" content=""/>
+        <meta name="viewport" content="width=device-width" , initial-scale="1" , maximum-scale="1"/>
+        <link rel="stylesheet" type="text/css" href="css/estilo.css">
+        <script type="text/javascript" src="js/javascript.js"></script>
+    </head>
+    <body>
+        <h1>Formulario Completo</h1>
+        <form>
+            <h4>Nombre:</h4> <input type="text" id="name" placeholder="Nombre" autofocus>
+                <h4 class="error" id="errorName"></h4><br><br>
+            <h4>Apellidos:</h4> <input type="text" id="surname" placeholder="Apellidos">
+                <h4 class="error" id="errorSurname"></h4><br><br>
+            <h4>Sexo:</h4><input type="radio" class="gender" id="male" value="hombre">Hombre
+                    <input type="radio" class="gender" id="female" value="mujer">Mujer
+                <h4 class="error" id="errorGender"></h4><br><br>
+            <h4>Nivel Estudios:</h4> <select name="education">
+                                <option value="elementary">Básicos</option>
+                                <option value="highschool">Secundaria</option>
+                                <option value="degree">Universitarios/FP</option>
+                            </select>
+                <br><h6>Aviso: Si no elige un nivel de estudios se le asignará Básicos por defecto</h6>
+            <h4>Idiomas:</h4> <input type="checkbox" class="idiom" id="castellano" value="castellano">Castellano
+                    <input type="checkbox" class="idiom" id="english" value="ingles">Inglés
+                    <input type="checkbox" class="idiom" id="german" value="aleman">Alemán
+                    <input type="checkbox" class="idiom" id="french" value="frances">Francés
+                <h4 class="error" id="errorIdiom"></h4>
+                <br><h6>Aviso: Asegúrese de elegir los idiomas sobre los que tenga competencias</h6>
+            <h4>Peso:</h4> <input type="text" id="weight" placeholder="Solo número">
+                <h4 class="error" id="errorWeight"></h4><br><br>
+            <h4>Mail:</h4> <input type="text" id="email" placeholder="Ej. hola@gmail.com">
+                <h4 class="error" id="errorMail"></h4><br><br>
+            <h4>DNI:</h4> <input type="text" id="dni" placeholder="Incluya letra">
+                <h4 class="error" id="errorDni"></h4><br><br>
+            <h4>Fecha Nacimiento:</h4> <input type="text" id="birthdate" placeholder="dd-mm-yyyy">
+                <h4 class="error" id="errorBirthdate"></h4><br><br>
+            <h4>Teléfono:</h4> <input type="text" id="phone" placeholder="95XXXXXXX">
+                <h4 class="error" id="errorPhone"></h4><br><br>
+            <h4>Cuenta Bancaria:</h4> <input type="text" id="account" placeholder="XXXX-XXXX-XX-XXXXXXXXXX" size="25">
+                <h4 class="error" id="errorAccount"></h4><br><br>
+            <h4>URL:</h4> <input type="text" id="url" placeholder="Ej. dominio.com">
+                <h4 class="error" id="errorUrl"></h4><br><br>
+            <input type="button" class="submit azul" id="submit" value="Enviar">
+        </form>
+    </body>
+</html>
