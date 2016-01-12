@@ -12,7 +12,7 @@
     </head>
     <body>
         <h1>Formulario Completo</h1>
-        <form>
+        <form action="#">
             <h4>Nombre:</h4> <input type="text" id="name" placeholder="Nombre" autofocus>
                 <h4 class="error" id="errorName"></h4><br><br>
             <h4>Apellidos:</h4> <input type="text" id="surname" placeholder="Apellidos">
@@ -46,7 +46,9 @@
                 <h4 class="error" id="errorAccount"></h4><br><br>
             <h4>URL:</h4> <input type="text" id="url" placeholder="Ej. dominio.com">
                 <h4 class="error" id="errorUrl"></h4><br><br>
-            <input type="button" class="submit azul" id="submit" value="Enviar">
+            <input type="submit" class="submit azul" id="submit" value="Enviar">    
+            <!-- <input type="button" class="submit azul" id="submit" value="Enviar"> -->
+            <h3 class="error" id="formularioOk"></h3>
         </form>
     </body>
 </html>
